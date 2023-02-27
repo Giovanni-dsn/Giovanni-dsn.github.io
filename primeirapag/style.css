@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --cor1: #212121;
+    --cor2: #424242;
+    --cor3: #ffb03b;
+    --fonte-padrao: 'Lexend', Arial, Verdana, sans-serif;
+}
+
+body {
+    background-image:url(fundositep2.png);
+    background-size: 100%;
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+
+
+header {
+    margin-bottom: 200px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+
+header h1 {
+    margin: 20px;
+    font-size: 2.5em;
+    width:fit-content;
+    display: inline-block;
+    padding: 10px;
+    /*text-shadow: 2px 1px 1px white;*/
+}
+
+header nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.blocomenu {
+    display: inline-block;
+    background-color: transparent;
+    padding: 20px;
+    width: 80%;
+    margin:auto;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+header a:hover {
+    color: var(--cor1);
+    background-color: white;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+main {
+    background-color: var(--cor2);
+    color: white;
+    max-width: 1300px;
+    min-width: 200px;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+main p {
+    padding: 15px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 2em;
+}
+
+main address {
+    display: inline;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+#aviso {
+    background-color: rgb(100, 98, 98);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #cc3d3d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+main span {
+    color: #cc3d3d;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+}
+
+#python {
+    color: #3773a5;
+}
+
+#html {
+    color: #FF642A;
+}
+
+#css {
+    color: #0186CA;
+}
+
+#javascript {
+    color: #FCB413;
+}
