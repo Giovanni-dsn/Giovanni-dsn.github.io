@@ -71,6 +71,7 @@ body {
     background-repeat: no-repeat;
     
     transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 #caixa > section {
@@ -83,6 +84,7 @@ body {
     border-radius: 0px 0px 8px 8px;
 
     transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section h1, p {
