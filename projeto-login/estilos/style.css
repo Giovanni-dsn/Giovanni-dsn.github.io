@@ -69,9 +69,6 @@ body {
     background-image: url(../imagens/fundologin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
-    transition: width .5s, height .5s;
-    transition-timing-function: ease;
 }
 
 #caixa > section {

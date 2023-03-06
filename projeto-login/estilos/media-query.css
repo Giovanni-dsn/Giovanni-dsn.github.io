@@ -20,6 +20,9 @@
         height: 380px;
         border-bottom-left-radius: 0%;
         border-top-right-radius: 8px;
+
+        transition: width .5s, height .5s;
+        transition-timing-function: ease;
     }
 
     .botao {
